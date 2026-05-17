@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> P&D Patidar Desinger| Civil Engineer & Vastu Consultant – Ujjain</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=Tiro+Devanagari+Hindi&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <!-- FLOATING WHATSAPP -->
+    <a class="wa-float" href="https://wa.me/917987698936" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- ===== NAV ===== -->
+    <nav class="nav">
+        <div class="nav__logo">
+            <span class="nav__symbol">ॐ</span>
+            <span class="nav__name" data-en="P&D Patidar Designer" data-hi="P&D Patidar Designer">P&D Patidar
+                Designer</span>
+        </div>
+        <ul class="nav__links">
+            <li><a href="#about" data-en="About" data-hi="परिचय">About</a></li>
+            <li><a href="#services" data-en="Services" data-hi="सेवाएं">Services</a></li>
+            <li><a href="#vastu" data-en="Vastu" data-hi="वास्तु">Vastu</a></li>
+            <li><a href="#projects" data-en="Projects" data-hi="परियोजनाएं">Projects</a></li>
+            <li><a href="#contact" data-en="Contact" data-hi="संपर्क" class="nav__cta">Consult Now</a></li>
+            <li class="nav__socials">
+                <a href="https://wa.me/917987698936" target="_blank" class="nav__social-icon nav__social-icon--wa"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/pd_patidar.designer" target="_blank"
+                    class="nav__social-icon nav__social-icon--ig"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/YOUR_PAGE" target="_blank"
+                    class="nav__social-icon nav__social-icon--fb"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <!-- Language Toggle -->
+            <li class="nav__lang">
+                <button class="lang-btn active" id="btn-en" onclick="setLang('en')">EN</button>
+                <span class="lang-sep">|</span>
+                <button class="lang-btn" id="btn-hi" onclick="setLang('hi')">हि</button>
+            </li>
+        </ul>
+        <div class="nav__right-mobile">
+            <button class="lang-btn active" id="btn-en-m" onclick="setLang('en')">EN</button>
+            <span class="lang-sep">|</span>
+            <button class="lang-btn" id="btn-hi-m" onclick="setLang('hi')">हि</button>
+            <button class="nav__hamburger" id="hamburger">&#9776;</button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero__bg-text">वास्तु</div>
+        <div class="hero__content">
+            <p class="hero__tag" data-en="Civil Engineer & Vastu Shastra Consultant · Ujjain"
+                data-hi="सिविल इंजीनियर और वास्तु शास्त्र सलाहकार · उज्जैन">Civil Engineer & Vastu Shastra Consultant ·
+                Ujjain</p>
+            <h1 class="hero__title">
+                <span data-en="Designing Spaces" data-hi="स्थान निर्माण">Designing Spaces</span>
+                <br /><em data-en="with Purpose & Harmony" data-hi="उद्देश्य और सौहार्द के साथ">with Purpose &
+                    Harmony</em>
+            </h1>
+            <p class="hero__desc"
+                data-en="8 years of excellence in structural engineering and Vastu-aligned house planning — where ancient wisdom meets modern precision."
+                data-hi="संरचनात्मक इंजीनियरिंग और वास्तु-अनुरूप गृह नियोजन में 8 वर्षों की उत्कृष्टता — जहाँ प्राचीन ज्ञान आधुनिक सटीकता से मिलता है।">
+                8 years of excellence in structural engineering and Vastu-aligned house planning — where ancient wisdom
+                meets modern precision.</p>
+            <div class="hero__actions">
+                <a href="#contact" class="btn btn--primary" data-en="Book a Consultation"
+                    data-hi="परामर्श बुक करें">Book a Consultation</a>
+                <a href="https://wa.me/917987698936" target="_blank" class="btn btn--ghost"><i
+                        class="fab fa-whatsapp"></i> <span data-en="WhatsApp Us" data-hi="व्हाट्सएप करें">WhatsApp
+                        Us</span></a>
+            </div>
+            <div class="hero__social-row">
+                <a href="https://wa.me/917987698936" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/pd_patidar.designer" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/YOUR_PAGE" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+        <div class="hero__badge">
+            <div class="hero__badge-ring">
+                <span data-en="8 Yrs" data-hi="8 वर्ष">8 Yrs</span>
+                <small data-en="Experience" data-hi="अनुभव">Experience</small>
+            </div>
+        </div>
+        <div class="hero__scroll-hint" data-en="Scroll ↓" data-hi="नीचे स्क्रॉल करें ↓">Scroll ↓</div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="stats">
+        <div class="stats__item"><span class="stats__num">8+</span><span class="stats__label" data-en="Years Experience"
+                data-hi="वर्षों का अनुभव">Years Experience</span></div>
+        <div class="stats__divider"></div>
+        <div class="stats__item"><span class="stats__num">150+</span><span class="stats__label"
+                data-en="Projects Completed" data-hi="पूर्ण परियोजनाएं">Projects Completed</span></div>
+        <div class="stats__divider"></div>
+        <div class="stats__item"><span class="stats__num">100%</span><span class="stats__label"
+                data-en="Vastu Compliant" data-hi="वास्तु अनुरूप">Vastu Compliant</span></div>
+        <div class="stats__divider"></div>
+        <div class="stats__item"><span class="stats__num">500+</span><span class="stats__label" data-en="Happy Families"
+                data-hi="खुशहाल परिवार">Happy Families</span></div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+        <div class="about__img-col">
+            <div class="about__img-frame">
+                <div class="about__img-placeholder"><span class="about__initials">RS</span></div>
+                <div class="about__img-deco"></div>
+            </div>
+            <div class="about__cert">
+                <span class="about__cert-icon">🏛️</span>
+                <span data-en="B.E. Civil Engineering" data-hi="बी.ई. सिविल इंजीनियरिंग">B.E. Civil
+                    Engineering<br /><small data-en="Certified Vastu Expert"
+                        data-hi="प्रमाणित वास्तु विशेषज्ञ">Certified Vastu Expert</small></span>
+            </div>
+        </div>
+        <div class="about__text-col">
+            <p class="section__eyebrow" data-en="About Me" data-hi="मेरे बारे में">About Me</p>
+            <h2 class="section__title"><span data-en="Engineering Homes," data-hi="घरों का निर्माण,">Engineering
+                    Homes,</span> <em data-en="Energising Lives" data-hi="जीवन को ऊर्जा देना">Energising Lives</em></h2>
+            <p class="about__para"
+                data-en="Based in the sacred city of <strong>Ujjain, Madhya Pradesh</strong>, I blend rigorous civil engineering expertise with deep knowledge of <strong>Vastu Shastra</strong> — the ancient Indian science of spatial harmony."
+                data-hi="पवित्र नगरी <strong>उज्जैन, मध्यप्रदेश</strong> में स्थित, मैं कठोर सिविल इंजीनियरिंग विशेषज्ञता को <strong>वास्तु शास्त्र</strong> के गहन ज्ञान के साथ जोड़ता हूं।">
+                Based in the sacred city of <strong>Ujjain, Madhya Pradesh</strong>, I blend rigorous civil engineering
+                expertise with deep knowledge of <strong>Vastu Shastra</strong> — the ancient Indian science of spatial
+                harmony.</p>
+            <p class="about__para"
+                data-en="Over 8 years I have helped hundreds of families across Ujjain, Indore, Dewas, and beyond build homes that are structurally sound and energetically balanced, promoting health, wealth, and peace."
+                data-hi="8 वर्षों में मैंने उज्जैन, इंदौर, देवास और अन्य स्थानों पर सैकड़ों परिवारों को ऐसे घर बनाने में मदद की है जो संरचनात्मक रूप से मजबूत और ऊर्जात्मक रूप से संतुलित हैं।">
+                Over 8 years I have helped hundreds of families across Ujjain, Indore, Dewas, and beyond build homes
+                that are structurally sound and energetically balanced, promoting health, wealth, and peace.</p>
+            <ul class="about__highlights">
+                <li><span class="highlight__dot"></span><span data-en="Structural design & supervision"
+                        data-hi="संरचनात्मक डिज़ाइन और पर्यवेक्षण">Structural design & supervision</span></li>
+                <li><span class="highlight__dot"></span><span data-en="Vastu-based floor plan correction"
+                        data-hi="वास्तु आधारित फ्लोर प्लान सुधार">Vastu-based floor plan correction</span></li>
+                <li><span class="highlight__dot"></span><span data-en="Pre & post-construction Vastu audit"
+                        data-hi="निर्माण पूर्व व बाद वास्तु ऑडिट">Pre & post-construction Vastu audit</span></li>
+                <li><span class="highlight__dot"></span><span data-en="Commercial & residential planning"
+                        data-hi="व्यावसायिक और आवासीय नियोजन">Commercial & residential planning</span></li>
+            </ul>
+            <a href="#contact" class="btn btn--primary" style="margin-top:2rem;" data-en="Get in Touch"
+                data-hi="संपर्क करें">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services section" id="services">
+        <div class="services__header">
+            <p class="section__eyebrow" data-en="What I Offer" data-hi="मेरी सेवाएं">What I Offer</p>
+            <h2 class="section__title"><span data-en="Services Tailored for" data-hi="आपके स्थान के लिए">Services
+                    Tailored for</span> <em data-en="Your Space" data-hi="अनुकूलित सेवाएं">Your Space</em></h2>
+        </div>
+        <div class="services__grid">
+            <div class="service-card">
+                <div class="service-card__icon">🏗️</div>
+                <h3 data-en="Structural Engineering" data-hi="संरचनात्मक इंजीनियरिंग">Structural Engineering</h3>
+                <p data-en="Complete structural design, load analysis, RCC detailing, and on-site supervision for residential and commercial buildings."
+                    data-hi="आवासीय एवं व्यावसायिक भवनों के लिए पूर्ण संरचनात्मक डिज़ाइन, भार विश्लेषण, RCC विवरण और साइट पर्यवेक्षण।">
+                    Complete structural design, load analysis, RCC detailing, and on-site supervision for residential
+                    and commercial buildings.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">🧭</div>
+                <h3 data-en="Vastu House Planning" data-hi="वास्तु गृह नियोजन">Vastu House Planning</h3>
+                <p data-en="New house plans designed from scratch with all Vastu principles — direction, room placement, entry, kitchen, puja, and bedroom orientation."
+                    data-hi="सभी वास्तु सिद्धांतों के साथ नए घर की योजना — दिशा, कमरा स्थान, प्रवेश, रसोई, पूजा और शयनकक्ष।">
+                    New house plans designed from scratch with all Vastu principles — direction, room placement, entry,
+                    kitchen, puja, and bedroom orientation.</p>
+            </div>
+            <div class="service-card service-card--featured">
+                <div class="service-card__icon">📐</div>
+                <h3 data-en="Floor Plan Design" data-hi="फ्लोर प्लान डिज़ाइन">Floor Plan Design</h3>
+                <p data-en="2D & 3D floor plans crafted with engineering standards and Vastu compliance for maximum positivity and functionality."
+                    data-hi="इंजीनियरिंग मानकों और वास्तु अनुपालन के साथ 2D और 3D फ्लोर प्लान तैयार किए जाते हैं।">2D &
+                    3D floor plans crafted with engineering standards and Vastu compliance for maximum positivity and
+                    functionality.</p>
+                <span class="service-card__badge" data-en="Most Popular" data-hi="सबसे लोकप्रिय">Most Popular</span>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">🔍</div>
+                <h3 data-en="Vastu Audit & Remedies" data-hi="वास्तु ऑडिट और उपाय">Vastu Audit & Remedies</h3>
+                <p data-en="On-site inspection of existing homes. Identify energy defects and apply practical Vastu remedies without major demolition."
+                    data-hi="मौजूदा घरों का साइट पर निरीक्षण। ऊर्जा दोषों की पहचान और बिना तोड़फोड़ के व्यावहारिक वास्तु उपाय।">
+                    On-site inspection of existing homes. Identify energy defects and apply practical Vastu remedies
+                    without major demolition.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">🏢</div>
+                <h3 data-en="Commercial Planning" data-hi="व्यावसायिक नियोजन">Commercial Planning</h3>
+                <p data-en="Office, shop, factory, and showroom planning with Vastu-aligned zones for prosperity, productivity, and growth."
+                    data-hi="समृद्धि, उत्पादकता और विकास के लिए वास्तु-अनुरूप क्षेत्रों के साथ कार्यालय, दुकान, फैक्ट्री और शोरूम नियोजन।">
+                    Office, shop, factory, and showroom planning with Vastu-aligned zones for prosperity, productivity,
+                    and growth.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-card__icon">📍</div>
+                <h3 data-en="Plot Selection & Analysis" data-hi="भूखंड चयन और विश्लेषण">Plot Selection & Analysis</h3>
+                <p data-en="Evaluate plots based on shape, direction, slope, surroundings, and Vastu suitability before you invest."
+                    data-hi="निवेश से पहले आकार, दिशा, ढलान, आसपास के वातावरण और वास्तु उपयुक्तता के आधार पर भूखंड का मूल्यांकन।">
+                    Evaluate plots based on shape, direction, slope, surroundings, and Vastu suitability before you
+                    invest.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== VASTU ===== -->
+    <section class="vastu section" id="vastu">
+        <div class="vastu__left">
+            <p class="section__eyebrow" style="color:var(--gold-light)" data-en="Ancient Wisdom"
+                data-hi="प्राचीन ज्ञान">Ancient Wisdom</p>
+            <h2 class="section__title" style="color:#fff"><span data-en="Why" data-hi="क्यों">Why</span> <em
+                    data-en="Vastu Shastra" data-hi="वास्तु शास्त्र">Vastu Shastra</em> <span data-en="Matters"
+                    data-hi="महत्वपूर्ण है">Matters</span></h2>
+            <p class="vastu__desc"
+                data-en="Vastu Shastra is a 5,000-year-old Vedic science that aligns your living space with the five elements — Earth, Water, Fire, Air & Space — creating environments that support well-being, abundance, and harmony."
+                data-hi="वास्तु शास्त्र 5,000 वर्ष पुराना वैदिक विज्ञान है जो आपके रहने की जगह को पाँच तत्वों — पृथ्वी, जल, अग्नि, वायु और आकाश — के साथ संरेखित करता है।">
+                Vastu Shastra is a 5,000-year-old Vedic science that aligns your living space with the five elements —
+                Earth, Water, Fire, Air & Space — creating environments that support well-being, abundance, and harmony.
+            </p>
+            <a href="#contact" class="btn btn--gold" data-en="Consult for Your Home"
+                data-hi="अपने घर के लिए परामर्श लें">Consult for Your Home</a>
+        </div>
+        <div class="vastu__compass">
+            <div class="vastu__compass-bg">
+                <div class="vastu__dir vastu__dir--n">उत्तर<br /><small>North</small></div>
+                <div class="vastu__dir vastu__dir--s">दक्षिण<br /><small>South</small></div>
+                <div class="vastu__dir vastu__dir--e">पूर्व<br /><small>East</small></div>
+                <div class="vastu__dir vastu__dir--w">पश्चिम<br /><small>West</small></div>
+                <div class="vastu__center">ॐ</div>
+            </div>
+            <ul class="vastu__tips">
+                <li><span data-en="🌅 Main entrance facing East or North invites prosperity"
+                        data-hi="🌅 पूर्व या उत्तर मुखी मुख्य द्वार समृद्धि लाता है">🌅 Main entrance facing East or
+                        North invites prosperity</span></li>
+                <li><span data-en="🔥 Kitchen in South-East (Agni corner) for health"
+                        data-hi="🔥 दक्षिण-पूर्व (अग्नि कोण) में रसोई स्वास्थ्य के लिए">🔥 Kitchen in South-East (Agni
+                        corner) for health</span></li>
+                <li><span data-en="😴 Master bedroom in South-West for stability"
+                        data-hi="😴 स्थिरता के लिए मुख्य शयनकक्ष दक्षिण-पश्चिम में">😴 Master bedroom in South-West for
+                        stability</span></li>
+                <li><span data-en="🙏 Puja room in North-East for spiritual energy"
+                        data-hi="🙏 आध्यात्मिक ऊर्जा के लिए पूजाघर उत्तर-पूर्व में">🙏 Puja room in North-East for
+                        spiritual energy</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects section" id="projects">
+        <p class="section__eyebrow" data-en="Portfolio" data-hi="पोर्टफोलियो">Portfolio</p>
+        <h2 class="section__title"><span data-en="Recent" data-hi="हालिया">Recent</span> <em data-en="Projects"
+                data-hi="परियोजनाएं">Projects</em></h2>
+        <div class="projects__grid">
+            <div class="project-card">
+                <div class="project-card__img project-card__img--1"></div>
+                <div class="project-card__body">
+                    <span class="project-card__tag" data-en="Residential" data-hi="आवासीय">Residential</span>
+                    <h4 data-en="4 BHK Vastu Home – Ujjain" data-hi="4 बीएचके वास्तु घर – उज्जैन">4 BHK Vastu Home –
+                        Ujjain</h4>
+                    <p data-en="Complete structural + Vastu design for a 2,800 sq.ft. family residence on Indore Road."
+                        data-hi="इंदौर रोड पर 2,800 वर्ग फुट के पारिवारिक निवास के लिए संपूर्ण संरचनात्मक और वास्तु डिज़ाइन।">
+                        Complete structural + Vastu design for a 2,800 sq.ft. family residence on Indore Road.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card__img project-card__img--2"></div>
+                <div class="project-card__body">
+                    <span class="project-card__tag" data-en="Commercial" data-hi="व्यावसायिक">Commercial</span>
+                    <h4 data-en="Showroom Design – Dewas" data-hi="शोरूम डिज़ाइन – देवास">Showroom Design – Dewas</h4>
+                    <p data-en="Vastu-aligned layout for a 5,000 sq.ft. retail showroom with prosperity-zone planning."
+                        data-hi="समृद्धि-क्षेत्र नियोजन के साथ 5,000 वर्ग फुट के शोरूम के लिए वास्तु-अनुरूप लेआउट।">
+                        Vastu-aligned layout for a 5,000 sq.ft. retail showroom with prosperity-zone planning.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-card__img project-card__img--3"></div>
+                <div class="project-card__body">
+                    <span class="project-card__tag" data-en="Audit & Remedy" data-hi="ऑडिट और उपाय">Audit &
+                        Remedy</span>
+                    <h4 data-en="Vastu Correction – Indore" data-hi="वास्तु सुधार – इंदौर">Vastu Correction – Indore
+                    </h4>
+                    <p data-en="Post-construction audit and non-demolition remedies for a 3 BHK apartment complex."
+                        data-hi="3 बीएचके अपार्टमेंट के लिए निर्माण पश्चात ऑडिट और बिना तोड़फोड़ के वास्तु उपाय।">
+                        Post-construction audit and non-demolition remedies for a 3 BHK apartment complex.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials section">
+        <p class="section__eyebrow" data-en="Client Stories" data-hi="ग्राहक अनुभव">Client Stories</p>
+        <h2 class="section__title"><span data-en="What Families" data-hi="परिवार क्या">What Families</span> <em
+                data-en="Say" data-hi="कहते हैं">Say</em></h2>
+        <div class="testimonials__grid">
+            <div class="testimonial-card">
+                <p class="testimonial-card__text"
+                    data-en="After Niraj sir have designed our home with Vastu principles, we have seen tremendous positive changes in our family's health and finances. Highly recommended!"
+                    data-hi="Niraj जी ने वास्तु सिद्धांतों से हमारा घर डिज़ाइन किया, उसके बाद हमारे परिवार के स्वास्थ्य और आर्थिक स्थिति में अद्भुत सुधार आया।">
+                    After Niraj ji designed our home with Vastu principles, we have seen tremendous positive changes in
+                    our family's health and finances. Highly recommended!</p>
+                <div class="testimonial-card__author">
+                    <div class="author__avatar">PB</div>
+                    <div><strong>Prashant bhuteshwar </strong><small>Abhaypur</small></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-card__text"
+                    data-en="Professional, punctual and very knowledgeable. He explained every Vastu detail clearly. Our new house feels peaceful and full of positive energy."
+                    data-hi="पेशेवर, समयनिष्ठ और बहुत जानकार। उन्होंने हर वास्तु विवरण स्पष्ट रूप से समझाया। हमारा नया घर शांतिपूर्ण और सकारात्मक ऊर्जा से भरपूर लगता है।">
+                    Professional, punctual and very knowledgeable. He explained every Vastu detail clearly. Our new
+                    house feels peaceful and full of positive energy.</p>
+                <div class="testimonial-card__author">
+                    <div class="author__avatar">JP</div>
+                    <div><strong> Jagdish patidar</strong><small>Shajapur</small></div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-card__text"
+                    data-en="Got plot analysis done before buying. He saved us from a Vastu-defective plot. The alternate plot he suggested has been perfect for our dream home."
+                    data-hi="खरीदने से पहले भूखंड विश्लेषण कराया। उन्होंने हमें वास्तु दोषपूर्ण भूखंड से बचाया। उनके बताए विकल्प में हमारा सपनों का घर बना।">
+                    Got plot analysis done before buying. He saved us from a Vastu-defective plot. The alternate plot he
+                    suggested has been perfect for our dream home.</p>
+                <div class="testimonial-card__author">
+                    <div class="author__avatar">AP</div>
+                    <div><strong>Anil Patidar</strong><small>Dewas</small></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+        <div class="contact__left">
+            <p class="section__eyebrow" data-en="Get in Touch" data-hi="संपर्क करें">Get in Touch</p>
+            <h2 class="section__title"><span data-en="Start Your" data-hi="अपनी">Start Your</span> <em data-en="Journey"
+                    data-hi="यात्रा शुरू करें">Journey</em></h2>
+            <p data-en="Whether you're planning a new home, buying a plot, or want to fix your existing space — I'm here to help with expert engineering and Vastu guidance."
+                data-hi="चाहे आप नया घर बनाने की योजना बना रहे हों, भूखंड खरीद रहे हों, या मौजूदा स्थान ठीक करना चाहते हों — मैं विशेषज्ञ इंजीनियरिंग और वास्तु मार्गदर्शन के साथ यहाँ हूँ।">
+                Whether you're planning a new home, buying a plot, or want to fix your existing space — I'm here to help
+                with expert engineering and Vastu guidance.</p>
+            <div class="contact__info">
+                <div class="contact__info-item">📍 <span>147, Ankpat Marg, Kajipura, Ujjain, M.P. – 456006</span></div>
+                <div class="contact__info-item">📞 <a href="tel:+917987698936">+91 79876 98936</a></div>
+                <div class="contact__info-item">✉️ <a
+                        href="mailto:pdpatidardesigner@gmail.com">pdpatidardesigner@gmail.com</a></div>
+                <div class="contact__info-item">🕐 <span data-en="Mon–Sat, 9 AM – 7 PM"
+                        data-hi="सोम–शनि, सुबह 9 – शाम 7">Mon–Sat, 9 AM – 7 PM</span></div>
+            </div>
+            <div class="contact__socials">
+                <a href="https://wa.me/917987698936" target="_blank" class="social-btn social-btn--wa"><i
+                        class="fab fa-whatsapp"></i> WhatsApp</a>
+                <a href="https://instagram.com/pd_patidar.designer" target="_blank" class="social-btn social-btn--ig"><i
+                        class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://facebook.com/YOUR_PAGE" target="_blank" class="social-btn social-btn--fb"><i
+                        class="fab fa-facebook-f"></i> Facebook</a>
+            </div>
+        </div>
+        <div class="contact__right">
+            <form class="contact__form" id="contactForm" onsubmit="handleSubmit(event)">
+                <div class="form__row">
+                    <div class="form__group">
+                        <label data-en="Full Name" data-hi="पूरा नाम">Full Name</label>
+                        <input type="text" id="from_name" placeholder="Your Name" required />
+                    </div>
+                    <div class="form__group">
+                        <label data-en="Phone Number" data-hi="फ़ोन नंबर">Phone Number</label>
+                        <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required />
+                    </div>
+                </div>
+                <div class="form__group">
+                    <label data-en="Email Address" data-hi="ईमेल पता">Email Address</label>
+                    <input type="email" id="from_email" placeholder="your@email.com" />
+                </div>
+                <div class="form__group">
+                    <label data-en="Service Needed" data-hi="सेवा चुनें">Service Needed</label>
+                    <select id="service">
+                        <option data-en="Vastu House Planning" data-hi="वास्तु गृह नियोजन">Vastu House Planning</option>
+                        <option data-en="Structural Engineering" data-hi="संरचनात्मक इंजीनियरिंग">Structural Engineering
+                        </option>
+                        <option data-en="Floor Plan Design" data-hi="फ्लोर प्लान डिज़ाइन">Floor Plan Design</option>
+                        <option data-en="Vastu Audit & Remedies" data-hi="वास्तु ऑडिट और उपाय">Vastu Audit & Remedies
+                        </option>
+                        <option data-en="Plot Selection" data-hi="भूखंड चयन">Plot Selection</option>
+                        <option data-en="Commercial Planning" data-hi="व्यावसायिक नियोजन">Commercial Planning</option>
+                    </select>
+                </div>
+                <div class="form__group">
+                    <label data-en="Message" data-hi="संदेश">Message</label>
+                    <textarea rows="4" id="message" placeholder="Describe your project..."></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--full" id="submitBtn"
+                    data-en="Send via Email & WhatsApp →" data-hi="ईमेल और व्हाट्सएप से भेजें →">Send via Email &
+                    WhatsApp →</button>
+                <div id="form-status" style="margin-top:1rem;text-align:center;font-size:0.9rem;"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== MAP ===== -->
+    <section class="map-section">
+        <div class="map-header">
+            <p class="section__eyebrow" data-en="Find Us" data-hi="हमें खोजें">Find Us</p>
+            <h2 class="section__title"><span data-en="Our" data-hi="हमारा">Our</span> <em data-en="Location"
+                    data-hi="स्थान">Location</em></h2>
+            <p class="map-address">📍 147, Ankpat Marg, Kajipura, Ujjain, M.P. – 456006</p>
+        </div>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.0!2d75.7849!3d23.1765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDEwJzM1LjQiTiA3NcKwNDcnMDUuNiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin&q=147+Ankpat+Marg+Kajipura+Ujjain+Madhya+Pradesh+456006"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Office Location">
+            </iframe>
+            <a class="map-directions-btn"
+                href="https://www.google.com/maps/dir/?api=1&destination=147+Ankpat+Marg+Kajipura+Ujjain+Madhya+Pradesh+456006"
+                target="_blank">
+                <i class="fas fa-directions"></i> <span data-en="Get Directions" data-hi="दिशा-निर्देश पाएं">Get
+                    Directions</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__brand">
+                <span class="nav__symbol">ॐ</span>
+                <span data-en="Er. Niraj Patidar" data-hi="वा. राजेश शर्मा">P&D Patidar Designers</span>
+                <p data-en="Civil Engineer & Vastu Consultant, Ujjain, M.P."
+                    data-hi="सिविल इंजीनियर और वास्तु सलाहकार, उज्जैन, म.प्र.">Civil Engineer & Vastu
+                    Consultant<br />Ujjain, M.P.</p>
+                <div class="footer__socials">
+                    <a href="https://wa.me/917987698936" target="_blank" class="footer__social footer__social--wa"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/pd_patidar.designer" target="_blank"
+                        class="footer__social footer__social--ig"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com/YOUR_PAGE" target="_blank"
+                        class="footer__social footer__social--fb"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="footer__links">
+                <strong data-en="Quick Links" data-hi="त्वरित लिंक">Quick Links</strong>
+                <a href="#about" data-en="About" data-hi="परिचय">About</a>
+                <a href="#services" data-en="Services" data-hi="सेवाएं">Services</a>
+                <a href="#vastu" data-en="Vastu" data-hi="वास्तु">Vastu</a>
+                <a href="#projects" data-en="Projects" data-hi="परियोजनाएं">Projects</a>
+                <a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a>
+            </div>
+            <div class="footer__links">
+                <strong data-en="Services" data-hi="सेवाएं">Services</strong>
+                <a href="#services" data-en="Vastu Planning" data-hi="वास्तु नियोजन">Vastu Planning</a>
+                <a href="#services" data-en="Structural Design" data-hi="संरचनात्मक डिज़ाइन">Structural Design</a>
+                <a href="#services" data-en="Floor Plans" data-hi="फ्लोर प्लान">Floor Plans</a>
+                <a href="#services" data-en="Vastu Audit" data-hi="वास्तु ऑडिट">Vastu Audit</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p data-en="© 2025 Er. Niraj Patidar. All rights reserved. | Ujjain, MP"
+                data-hi="© 2025 वा. राजेश शर्मा. सर्वाधिकार सुरक्षित. | उज्जैन, म.प्र.">© 2025 Er. Niraj Patidar. All
+                rights reserved. | Ujjain, MP</p>
+            <p style="font-style:italic;color:var(--gold-light)">यथा गृहं तथा मनः — As the home, so the mind.</p>
+        </div>
+    </footer>
+
+    <script>
+        /* =============================================
+           EMAILJS CONFIG — Replace these 3 values:
+           1. Sign up at https://www.emailjs.com
+           2. Add Gmail service → copy Service ID
+           3. Create Email Template → copy Template ID
+           4. Account → copy Public Key
+        ============================================= */
+        const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+        const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';
+        const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
+        const WA_NUMBER = '917987698936';
+
+        emailjs.init(EMAILJS_PUBLIC_KEY);
+
+        /* =============================================
+           LANGUAGE SWITCHER
+        ============================================= */
+        let currentLang = 'en';
+
+        function setLang(lang) {
+            currentLang = lang;
+
+            // Update all data-en / data-hi elements
+            document.querySelectorAll('[data-en]').forEach(el => {
+                const text = el.getAttribute('data-' + lang);
+                if (!text) return;
+                // If it contains HTML tags use innerHTML else textContent
+                if (text.includes('<')) el.innerHTML = text;
+                else el.textContent = text;
+            });
+
+            // Placeholders
+            const placeholders = {
+                en: { from_name: 'Your Name', phone: '+91 XXXXX XXXXX', from_email: 'your@email.com', message: 'Describe your project...' },
+                hi: { from_name: 'आपका नाम', phone: '+91 XXXXX XXXXX', from_email: 'आपका ईमेल', message: 'अपनी परियोजना का विवरण दें...' }
+            };
+            Object.entries(placeholders[lang]).forEach(([id, ph]) => {
+                const el = document.getElementById(id);
+                if (el) el.placeholder = ph;
+            });
+
+            // Nav CTA special text
+            const cta = document.querySelector('.nav__cta');
+            if (cta) cta.textContent = lang === 'hi' ? 'परामर्श करें' : 'Consult Now';
+
+            // Toggle active button states
+            ['btn-en', 'btn-hi', 'btn-en-m', 'btn-hi-m'].forEach(id => {
+                const btn = document.getElementById(id);
+                if (!btn) return;
+                btn.classList.toggle('active', btn.id.includes(lang === 'en' ? 'en' : 'hi'));
+            });
+
+            // Body font for Hindi
+            document.body.style.fontFamily = lang === 'hi'
+                ? "'Tiro Devanagari Hindi', 'DM Sans', sans-serif"
+                : "'DM Sans', sans-serif";
+        }
+
+        /* =============================================
+           FORM SUBMIT
+        ============================================= */
+        async function handleSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('from_name').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const email = document.getElementById('from_email').value.trim();
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value.trim();
+            const statusEl = document.getElementById('form-status');
+            const btn = document.getElementById('submitBtn');
+
+            btn.textContent = currentLang === 'hi' ? 'भेज रहे हैं...' : 'Sending...';
+            btn.disabled = true;
+            statusEl.textContent = '';
+
+            // 1. EmailJS
+            let emailSent = false;
+            try {
+                await emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, {
+                    from_name: name, phone, from_email: email || 'Not provided',
+                    service, message, to_email: 'pdpatidardesigner@gmail.com'
+                });
+                emailSent = true;
+            } catch (err) { console.warn('EmailJS:', err); }
+
+            // 2. WhatsApp
+            const waText = encodeURIComponent(
+                `🙏 *Website Enquiry*\n\n*Name:* ${name}\n*Phone:* ${phone}\n*Email:* ${email || '—'}\n*Service:* ${service}\n\n*Message:*\n${message}`
+            );
+            setTimeout(() => window.open(`https://wa.me/${WA_NUMBER}?text=${waText}`, '_blank'), 400);
+
+            statusEl.style.color = 'var(--green-sage)';
+            statusEl.textContent = emailSent
+                ? (currentLang === 'hi' ? '✅ ईमेल भेजा! व्हाट्सएप खुल रहा है...' : '✅ Email sent! WhatsApp opening...')
+                : (currentLang === 'hi' ? '📲 व्हाट्सएप खुल रहा है!' : '📲 WhatsApp opening! (Add EmailJS to also receive emails)');
+
+            btn.textContent = currentLang === 'hi' ? 'भेजा ✓' : 'Sent ✓';
+            document.getElementById('contactForm').reset();
+            setTimeout(() => {
+                btn.textContent = currentLang === 'hi' ? 'ईमेल और व्हाट्सएप से भेजें →' : 'Send via Email & WhatsApp →';
+                btn.disabled = false;
+                statusEl.textContent = '';
+            }, 5000);
+        }
+
+        /* =============================================
+           NAV
+        ============================================= */
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav__links');
+        hamburger.addEventListener('click', () => navLinks.classList.toggle('nav__links--open'));
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                const el = document.querySelector(a.getAttribute('href'));
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+                navLinks.classList.remove('nav__links--open');
+            });
+        });
+
+        /* Scroll animations */
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.service-card,.project-card,.testimonial-card,.about__text-col,.about__img-col').forEach(el => observer.observe(el));
+
+        window.addEventListener('scroll', () => {
+            document.querySelector('.nav').classList.toggle('nav--scrolled', window.scrollY > 60);
+        });
+    </script>
+</body>
+
+</html>
