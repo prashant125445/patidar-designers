@@ -1539,8 +1539,8 @@ em {
    }
 
    .about__img-frame {
-      padding-top: 70%;
-      max-width: 350px;
+      padding-top: 110%;
+      max-width: 100%;
    }
 
    .about__cert {
